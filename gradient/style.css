@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, #4c88d8, #ec5959, #97df23, #d12c6b );
+    background-size: 300%;
+    animation: bganimation 5s infinite;
+}
+
+.texto {
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 360px;
+    font-size: 30px;
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 80% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
